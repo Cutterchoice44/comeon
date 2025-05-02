@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cutters Choice Radio</title>
+  <link rel="preconnect" href="https://app.radiocult.fm">
+  <link rel="preconnect" href="https://widget.mixcloud.com">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <audio id="analyser-source"
+         src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"
+         crossorigin="anonymous"
+         hidden
+         autoplay
+         loop>
+  </audio>
+
+  <header class="banner-with-wave">
+    <canvas id="waveform-canvas"></canvas>
+    <div class="logo-and-title">
+      <img class="logo"
+           src="https://i.imgur.com/SEiUhPX.png"
+           alt="Cutters Choice Radio Logo"
+           style="width:100%; max-width:250px; height:auto; margin-bottom:0.5rem;"
+           loading="lazy">
+      <div class="title">
+        <h1>Cutters Choice Radio</h1>
+        <p class="tagline">The home of relentless flavas and significant bangers!</p>
+      </div>
+      <img class="logo"
+           src="https://i.imgur.com/SEiUhPX.png"
+           alt="Cutters Choice Radio Logo"
+           style="width:100%; max-width:250px; height:auto; margin-bottom:0.5rem;"
+           loading="lazy">
+    </div>
+  </header>
+
+  <div class="teal-line"></div>
+
+  <div class="grid-container">
+    <!-- existing sections: chat, live-player, schedule, mixcloud -->
+    <!-- unchanged content -->
+  </div>
+
+  <footer class="banner">
+    <a href="#merch">Merch</a>
+    <a href="#djs">Our DJs</a>
+    <a href="#events">Events</a>
+    <a href="#history">History</a>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
